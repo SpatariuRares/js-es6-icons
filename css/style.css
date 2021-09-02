@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: "Rubik";
+}
+.flex{
+    display:flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.f-column{
+    flex-direction: column;
+}
+.p-10{
+    padding: 10px;
+}
+.gray{
+    background-color:gray;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.c-blue{
+    color:blue;
+}
+
+
+/* main content */
+main>.element{
+    height: 5rem;
+    width: 10rem;
+    box-shadow: black 0px 0px 0 4px;
+    border-radius: 5px;
+    background-color:white;
+}
