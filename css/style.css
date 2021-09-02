@@ -52,6 +52,7 @@ h1{
     font-family: "acme";
     font-size: 2rem
 }
+
 nav,header,footer{
     height:70px;
 }
