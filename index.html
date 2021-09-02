@@ -13,24 +13,31 @@
 
 <body class="debug">
     <!-- Inizio Header -->
-    <header class="p-10 c-blue">
-        <h1>FontIcons</h1>
-    </header>
-    <!-- Fine Header -->
-    
-    <!-- Inizio Main -->
-    <main class="p-10 gray flex justify-between">
-        <div class="flex justify-center f-column align-center element">
-            <i class="fas fa-cat" style="color: blue"></i>
-            <p>cat</p>
-        </div>
-    </main>
-    <!-- Fine Main -->
-    
-    <!-- Inizio Footer -->
-    <footer>
-    
-    </footer>
+    <div class="container">
+
+        <header class="p-10 c-blue">
+            <h1>FontIcons</h1>
+        </header>
+        <!-- Fine Header -->
+        <nav class="flex justify-center p-10 blue">
+            <select id="type">
+                <option value="">--Please choose an option--</option>
+                <option value="animal">animal</option>
+                <option value="vegetable">vegetable</option>
+                <option value="user">user</option>
+            </select>
+        </nav>
+        <!-- Inizio Main -->
+        <main id="icons" class="p-10 gray flex f-wrap align-start">
+            
+        </main>
+        <!-- Fine Main -->
+        
+        <!-- Inizio Footer -->
+        <footer class="p-10">
+        
+        </footer>
+    </div>
     <!-- Fine Footer -->
     <script src="js/main.js"></script>
 </body>
